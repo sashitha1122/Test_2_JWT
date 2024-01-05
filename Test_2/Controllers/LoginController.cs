@@ -24,7 +24,7 @@ namespace Test_2.Controllers
             Users _user = null;
             if (user.Username == "admin" && user.Password == "12345")
             {  
-                _user = new Users { Username = "Sashitha Charunga" };
+                _user = new Users { Username = "Sashitha Charunga Yapa Indunilperuma" };
             }
             return _user;
         }
